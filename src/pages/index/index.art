@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Keywords" content="机票、出国、旅游">
+    <meta name="Description" content="慕云旅游已经有10年历史，帮助您开心畅游国内外">
+    <title>慕云旅游</title>
+</head>
+
+<body>
+    <!-- 黑色、绿色导航条+搜素 -->
+    <header>
+        <!-- 黑色导航条 -->
+        {{include '../../components/topbar/topbar.art'}}
+        <!-- 绿色导航条 -->
+        {{include '../../components/main-nav/mainnav.art'}}
+        <!-- 搜索 -->
+        {{include '../../components/header-con/header-con.art'}}
+    </header>
+
+    <!-- 滚动框 -->
+    <section class="banner" id="banner">
+        <!-- 滚动框底部图片 -->
+        <!-- {{include './components/slider/slider.art'}} -->
+        <div id="slider-layout">
+            <% include ('../../components/loading/loading.art',{inline:true,text:'正在加载中'})%>
+        </div>
+        <!-- 滚动图片顶部 -->
+        <div class="center-wrap">
+            <!-- 图片下的小圆点 -->
+            {{include './components/slider/circles.art'}}
+            <!-- 左右按钮 -->
+            {{include './components/slider/btn.art'}}
+            <!-- 灰色导航条 -->
+            {{include './components/carousel/banner-nav.art'}}
+        </div>
+    </section>
+
+    <!-- 广告 -->
+    {{include './components/fav-ad/fav-ad.art'}}
+
+    <main>
+        <!-- 新鲜甩尾 -->
+        <section class="xxsw">
+            <div class="center-wrap">
+                {{include './components/xxsw/xxsw.art'}}
+            </div>
+        </section>
+
+        <!-- 机酒自由行 -->
+        <section class="jjzyx">
+            <div class="center-wrap">
+                <!-- 头部标题+检索栏 -->
+                <!-- 图片索引 -->
+                {{include './components/jjzyx/jjzyx.art'}}
+            </div>
+        </section>
+
+        <!-- 当地玩乐 -->
+        <section class="ddwl">
+            <div class="center-wrap">
+                <!-- 头部标题+检索栏 -->
+                <!-- 图片索引 -->
+                {{include './components/ddwl/ddwl.art'}}
+            </div>
+        </section>
+
+        <!-- 特色当地体验 -->
+        <section class="tsddty">
+            <div class="center-wrap">
+                {{include './components/tsddty/tsddty.art'}}
+            </div>
+        </section>
+
+        <!-- 最世界-深度旅行 -->
+        <section class="zsj">
+            <div class="center-wrap">
+                {{include './components/zsj/zsj.art'}}
+            </div>
+        </section>
+
+        <!-- 跟团/半自助 -->
+        <section class="gt">
+            <div class="center-wrap">
+                {{include './components/gt/gt.art'}}
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- 第一块页脚 -->
+        {{include '../../components/footer-nav/footer-nav.art'}}
+        <!-- 第二块页脚 -->
+        {{include '../../components/bottom-bar/bottom-bar.art'}}
+    </footer>
+
+    <!-- 返回顶部按钮 -->
+    {{include '../../components/backtotop/backtotop.art'}}
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+/* 上下浮动动画的盒子处 */
+
+main .jjzyx .jieshao ul li.special-box, 
+main .ddwl .jieshao .col .special-box, 
+main .zsj .jieshao ul li.special-box,
+main .gt .jieshao ul li.special-box {
+    width: 264px;
+    height: 270px;
+    background-image: linear-gradient(180deg, #34E3BC 0%, #15AF7A 98%);
+    position: relative;
+}
+
+main .jjzyx .jieshao ul li.special-box a, 
+main .ddwl .jieshao .col .special-box a, 
+main .zsj .jieshao ul li.special-box a,
+main .gt .jieshao ul li.special-box {
+    display: block;
+    width: 264px;
+    height: 270px;
+    padding-top: 46px;
+    box-sizing: border-box;
+}
+
+main .jjzyx .jieshao ul li.special-box p, 
+main .ddwl .jieshao .col .special-box p, 
+main .zsj .jieshao ul li.special-box p,
+main .gt .jieshao ul li.special-box p {
+    color: white;
+    text-align: center;
+}
+
+main .jjzyx .jieshao ul li.special-box .iconfont, 
+main .ddwl .jieshao .col .special-box .iconfont, 
+main .zsj .jieshao ul li.special-box .iconfont,
+main .gt .jieshao ul li.special-box .iconfont {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    color: white;
+    font-size: 48px;
+    top: 50%;
+    margin-top: -24px;
+    left: 50%;
+    margin-left: -24px;
+}
+
+main .jjzyx .jieshao ul li.special-box:hover .iconfont, 
+main .ddwl .jieshao .col .special-box:hover .iconfont, 
+main .zsj .jieshao ul li.special-box:hover .iconfont,
+main .gt .jieshao ul li.special-box:hover .iconfont {
+    animation: float 1s linear 0s infinite forwards;
+}
+
+@-webkit-keyframes float {
+    0 {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+main .jjzyx .jieshao ul li.special-box ul, 
+main .ddwl .jieshao .col .special-box ul, 
+main .zsj .jieshao ul li.special-box ul,
+main .gt .jieshao ul li.special-box ul {
+    position: absolute;
+    width: 264px;
+    height: 14px;
+    bottom: 0;
+    margin-bottom: 70px;
+    padding-left: 35px;
+}
+
+main .jjzyx .jieshao>ul>li.special-box ul li, 
+main .ddwl .jieshao .col .special-box ul li, 
+main .zsj .jieshao ul li.special-box ul li,
+main .gt .jieshao ul li.special-box ul li {
+    float: left;
+    font-size: 14px;
+    color: white;
+    padding: 0 9px;
+    border-right: 1px solid white;
+}
+
+main .jjzyx .jieshao>ul>li.special-box ul li:last-child, 
+main .ddwl .jieshao .col .special-box ul li:last-child, 
+main .zsj .jieshao ul li.special-box ul li:last-child,
+main .gt .jieshao ul li.special-box ul li:last-child {
+    border-right: none;
+}

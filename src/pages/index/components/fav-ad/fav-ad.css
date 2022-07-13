@@ -1,0 +1,12 @@
+section.hot-ads {
+    margin: 32px auto;
+}
+
+section.hot-ads ul li {
+    float: left;
+    margin-right: 32px;
+}
+
+section.hot-ads ul li:nth-child(4) {
+    margin-right: 0;
+}

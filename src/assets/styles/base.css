@@ -1,0 +1,68 @@
+.center-wrap{
+    width: 1156px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #1C1F21;
+}
+
+li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: "PingFangSCRegular.ttf";
+    src: url(../fonts/PingFangSCRegular.ttf);
+}
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/iconfont.woff2') format('woff2'),
+        url('../fonts/iconfont.woff') format('woff'),
+        url('../fonts/iconfont.ttf') format('truetype'),
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: "PingFangSCRegular.ttf";
+}
+
+input:focus {
+    outline: none;
+}
+
+.picbox img{
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition: transform .25s linear 0s;
+}
+
+.picbox:hover img{
+    transform: scale(1.15);
+}
+
+main .xxsw::after, section.hot-ads::after, main .jjzyx::after, main .tsddty::after, main .zsj::after, footer .part-one nav {
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+
+main .jjzyx .headbox::after, main .xxsw .headbox::after, main .jjzyx .headbox::after, main .zsj .headbox::after, main .gt .headbox::after, footer .part-two .headbox::after, footer .part-two ul::after {
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}

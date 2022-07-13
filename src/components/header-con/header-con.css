@@ -1,0 +1,42 @@
+header .header-con {
+    padding: 21px 0;
+    height: 36px;
+}
+
+header .header-con h1 {
+    float: left;
+    color: #20BD9A;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 36px;
+}
+
+header .header-con .search {
+    float: left;
+    padding-left:10px;
+    margin:2px 0 0 20px;
+}
+
+header .header-con .search input {
+    float: left;
+    font-size: 14px;
+    line-height: 32px;
+    width: 361px;
+    border: 1px solid #20BD9A;
+    border-radius: 4px 0 0 4px;
+    padding-left: 10px;
+    outline: none;
+}
+
+header .header-con .search .button {
+    display: inline-block;
+    background-color: #20BD9A;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #20BD9A;
+    border-radius: 0 4px 4px 0;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+}

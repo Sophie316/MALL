@@ -1,0 +1,117 @@
+section.banner {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+section.banner .loading{
+    padding: 100px;
+}
+
+section.banner .center-wrap nav.banner-nav {
+    position: absolute;
+    width: 552px;
+    top: 0;
+    left: 50%;
+    margin-left: -576px;
+    height: 100%;
+    /* background-color: #20BD9A; */
+}
+
+section.banner .center-wrap nav.banner-nav>ul {
+    height: 100%;
+    width: 296px;
+}
+
+section.banner .center-wrap nav.banner-nav>ul>li {
+    width: 296px;
+    height: 16.66%;
+    background-color: rgba(0,0,0,.53);
+    border-bottom: 1px solid #9e9e9e;
+    box-sizing: border-box;
+    position: relative;
+}
+
+section.banner .center-wrap nav.banner-nav>ul>li.current {
+    background-color: rgba(0,0,0,.73);
+}
+
+section.banner .center-wrap nav.banner-nav>ul>li.hot dl:before, 
+section.banner .center-wrap nav.banner-nav>ul>li.hk dl:before, 
+section.banner .center-wrap nav.banner-nav>ul>li.jp dl:before, 
+section.banner .center-wrap nav.banner-nav>ul>li.es dl:before,
+section.banner .center-wrap nav.banner-nav>ul>li.es dl:before, 
+section.banner .center-wrap nav.banner-nav>ul>li.eu dl:before, 
+section.banner .center-wrap nav.banner-nav>ul>li.au dl:before {
+    position: absolute;
+    content: '';
+    width: 22px;
+    height: 18px;
+    top: 50%;
+    margin-top: -9px;
+    left: -31.6625px;
+}
+
+section.banner .center-wrap nav.banner-nav>ul>li.hot dl:before {
+    background: url(images/icons.png) no-repeat -29px -399px;
+}
+
+section.banner .center-wrap nav.banner-nav>ul>li.hk dl:before {
+    background: url(images/icons.png) no-repeat -28px -217px;
+}
+
+section.banner .center-wrap nav.banner-nav>ul>li.jp dl:before {
+    background: url(images/icons.png) no-repeat -25px -171px;
+}
+
+section.banner .center-wrap nav.banner-nav>ul>li.es dl:before {
+    background: url(images/icons.png) no-repeat -28px -262px;
+}
+
+section.banner .center-wrap nav.banner-nav>ul>li.eu dl:before {
+    background: url(images/icons.png) no-repeat -29px -351px;
+}
+
+section.banner .center-wrap nav.banner-nav>ul>li.au dl:before {
+    background: url(images/icons.png) no-repeat -28px -305px;
+}
+
+section.banner .center-wrap nav.banner-nav>ul>li>dl {
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    left: 42px;
+    color: white;
+    font-size: 18px;
+}
+
+section.banner .center-wrap nav.banner-nav>ul>li>dl em {
+    font-size: 16px;
+}
+
+section.banner .center-wrap nav.banner-nav div.menus-box .menu {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 256px;
+    height: 100%;
+    left: 296px;
+    background-color: rgba(0, 0, 0, .63);
+    color: white;
+    padding: 16px;
+    box-sizing: border-box;
+    z-index: 99999;
+}
+
+section.banner .center-wrap nav.banner-nav div.menus-box .menu.current {
+    display: block;
+}
+
+section.banner .center-wrap nav.banner-nav div.menus-box .menu a {
+    text-decoration: none;
+    color: white;
+}
+
+section.banner .center-wrap nav.banner-nav div.menus-box .menu dt {
+    font-size: 18px;
+}

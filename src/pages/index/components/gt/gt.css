@@ -1,0 +1,28 @@
+main .gt {
+    height: 698px;
+    padding-top: 40px;
+}
+
+main .gt .headbox>ul li {
+    float: left;
+    font-size: 14px;
+    margin-right: 16px;
+    text-align: center;
+}
+
+main .gt .headbox>ul li:first-child {
+    border-bottom: 4px solid #20BD9A;
+    padding-bottom: 4px;
+}
+
+main .gt .headbox>ul li:last-child {
+    margin-right: 0;
+}
+ 
+main .gt .jieshao>ul>li.special-box {
+    background-image: linear-gradient(180deg, #41D8E9 0%, #3685EA 98%);
+}
+
+main .gt .jieshao ul li.special-box ul {
+    padding-left: 65px;
+}

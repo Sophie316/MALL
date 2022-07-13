@@ -1,0 +1,36 @@
+section.banner .btn {
+    position: absolute;
+    width: 1152px;
+    top: 0;
+    left: 50%;
+    margin-left: -576px;
+    height: 100%;
+}
+
+section.banner .btn .leftbtn {
+    position: absolute;
+    width: 28px;
+    height: 44px;
+    background: url(images/icons.png) no-repeat -21px -94px;
+    top: 50%;
+    margin-top: -22px;
+    left: -38px;
+}
+
+section.banner .btn .leftbtn:hover {
+    opacity: .6;
+}
+
+section.banner .btn .rightbtn {
+    position: absolute;
+    width: 28px;
+    height: 44px;
+    background: url(images/icons.png) no-repeat -21px -29px;
+    top: 50%;
+    margin-top: -22px;
+    right: -38px;
+}
+
+section.banner .btn .rightbtn:hover {
+    opacity: .6;
+}

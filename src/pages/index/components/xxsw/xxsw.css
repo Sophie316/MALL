@@ -1,0 +1,53 @@
+main .xxsw {
+    padding-top: 40px;
+    height: 698px;
+    background-color: #F7F7F7;
+}
+
+main .xxsw .headbox {
+    margin-bottom: 32px;
+}
+
+main .xxsw .headbox h2 {
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1C1F21;
+}
+
+main .xxsw .headbox em {
+    position: relative;
+    font-size: 16px;
+    color: #1C1F21;
+    top:20px;
+    left: 10px;
+}
+
+main .xxsw ul li {
+    float: left;
+    width: 264px;
+    height: 270px;
+    margin: 0 32px 32px 0;
+}
+
+main .xxsw ul li:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2), -5px 5px 10px rgba(0, 0, 0, .2);
+}
+
+main .xxsw ul li:nth-child(4), 
+main .xxsw ul li:nth-child(8) {
+    margin: 0 0 32px;
+}
+
+main .xxsw ul li .picbox {
+    width: 264px;
+    height: 184px;
+    overflow: hidden;
+}
+
+main .xxsw ul li .wordbox {
+    padding: 15px;
+    font-size: 14px;
+    color: #1C1F21;
+    line-height: 26px;
+}

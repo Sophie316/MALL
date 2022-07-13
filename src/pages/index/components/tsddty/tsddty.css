@@ -1,0 +1,58 @@
+main .tsddty {
+    height: 456px;
+}
+
+main .tsddty .center-wrap {
+    padding-top: 40px;
+}
+
+main .tsddty .header h2 {
+    font-size: 36px;
+    color: #1C1F21;
+    text-align: center;
+    font-weight: bold;
+}
+
+main .tsddty .jieshao {
+    padding-top: 32px;
+}
+
+main .tsddty .jieshao ul li {
+    float: left;
+    width: 264px;
+    height: 290px;
+    margin-right: 32px;
+}
+
+main .tsddty .jieshao ul li:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2), -5px 5px 10px rgba(0, 0, 0, .2);
+}
+
+main .tsddty .jieshao ul li:last-child {
+    margin-right: 0;
+}
+
+main .tsddty .jieshao ul li .picbox {
+    width: 264px;
+    height: 184px;
+    overflow: hidden;
+}
+
+main .tsddty .jieshao ul li .info {
+    padding: 16px 9px 0;
+}
+
+main .tsddty .jieshao ul li .info p {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    height: 48px;
+}
+
+main .tsddty .jieshao ul li .info span {
+    font-size: 13px;
+}
+
+main .tsddty .jieshao ul li .info span:nth-of-type(1) {
+    color: #FA6400;
+}

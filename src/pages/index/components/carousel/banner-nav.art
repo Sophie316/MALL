@@ -1,0 +1,182 @@
+<nav class="banner-nav" id="banner-nav">
+    <ul id="banner-nav-ul">
+        <li class="hot" data-t="hot">
+            <dl>
+                <dt>热门出发点</dt>
+                <dd>
+                    <em>北京</em>
+                    <em>上海</em>
+                    <em>广深</em>
+                    <em>西南</em>
+                    <em>国内其他</em>
+                </dd>
+            </dl>
+        </li>
+        <li class="hk" data-t="hk">
+            <dl>
+                <dt>港澳套 国内</dt>
+                <dd>
+                    <em>香港</em>
+                    <em>澳门</em>
+                    <em>台湾</em>
+                    <em>国内其他</em>
+                </dd>
+            </dl>
+        </li>
+        <li class="jp" data-t="jp">
+            <dl>
+                <dt>日本 韩国</dt>
+                <dd>
+                    <em>东京</em>
+                    <em>大阪</em>
+                    <em>冲绳</em>
+                    <em>福冈</em>
+                    <em>北海道</em>
+                </dd>
+            </dl>
+        </li>
+        <li class="es" data-t="es">
+            <dl>
+                <dt>东南亚南亚</dt>
+                <dd>
+                    <em>泰国</em>
+                    <em>新加坡</em>
+                    <em>越南</em>
+                    <em>马来西亚</em>
+                    <em>印尼</em>
+                </dd>
+            </dl>
+        </li>
+        <li class="eu" data-t="eu">
+            <dl>
+                <dt>欧洲 美洲</dt>
+                <dd>
+                    <em>英国</em>
+                    <em>法国</em>
+                    <em>美国</em>
+                    <em>加拿大</em>
+                </dd>
+            </dl>
+        </li>
+        <li class="au" data-t="au">
+            <dl>
+                <dt>澳新 中东非</dt>
+                <dd>
+                    <em>澳大利亚</em>
+                    <em>新西兰</em>
+                    <em>迪拜</em>
+                </dd>
+            </dl>
+        </li>
+    </ul>
+    <div class="menus-box" id="menus-box">
+        <div class="menu" data-t="hot">
+            <dl>
+                <dt>国内热门城市</dt>
+                <dd>
+                    <a href="#">三亚</a>
+                    <a href="#">东北雪乡</a>
+                    <a href="#">大理</a>
+                    <a href="#">丽江</a>
+                    <a href="#">昆明</a>
+                    <a href="#">西双版纳</a>
+                    <a href="#">拉萨</a>
+                    <a href="#">成都</a>
+                    <a href="#">重庆</a>
+                    <a href="#">长白山</a>
+                    <a href="#">长沙</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="menu" data-t="hk">
+            <dl>
+                <dt>港澳台</dt>
+                <dd>
+                    <a href="#">香港</a>
+                    <a href="#">澳门</a>
+                    <a href="#">台北</a>
+                    <a href="#">高雄</a>
+                    <a href="#">香港迪士尼</a>
+                    <a href="#">香港海洋公园</a>
+                    <a href="#">交通接驳</a>
+                    <a href="#">澳门</a>
+                    <a href="#">她新濠天地水舞间</a>
+                    <a href="#">澳门豪华自助 台北101</a>
+                    <a href="#">台湾美食</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="menu" data-t="jp">
+            <dl>
+                <dt>日本</dt>
+                <dd>
+                    <a href="#">东京</a>
+                    <a href="#">大阪</a>
+                    <a href="#">冲绳</a>
+                    <a href="#">北海道</a>
+                    <a href="#">札幌</a>
+                    <a href="#">京都</a>
+                    <a href="#">名古屋</a>
+                    <a href="#">福冈</a>
+                    <a href="#">长崎</a>
+                    <a href="#">鹿儿岛</a>
+                    <a href="#">JR</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="menu" data-t="es">
+            <dl>
+                <dt>泰新马</dt>
+                <dd>
+                    <a href="#">普吉岛</a>
+                    <a href="#">清迈</a>
+                    <a href="#">曼谷</a>
+                    <a href="#">苏梅岛</a>
+                    <a href="#">甲米</a>
+                    <a href="#">巴浩亚</a>
+                    <a href="#">拜县</a>
+                    <a href="#">新加坡</a>
+                    <a href="#">马来西亚</a>
+                    <a href="#">沙巴</a>
+                    <a href="#">吉隆坡</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="menu" data-t="eu">
+            <dl>
+                <dt>欧洲</dt>
+                <dd>
+                    <a href="#">法国</a>
+                    <a href="#">意大利</a>
+                    <a href="#">土耳其</a>
+                    <a href="#">俄罗斯</a>
+                    <a href="#">西班牙</a>
+                    <a href="#">瑞士</a>
+                    <a href="#">英国</a>
+                    <a href="#">希腊</a>
+                    <a href="#">荷兰</a>
+                    <a href="#">葡萄牙</a>
+                    <a href="#">奥地利</a>
+                </dd>
+            </dl>
+        </div>
+        <div class="menu" data-t="au">
+            <dl>
+                <dt>澳新 太平洋</dt>
+                <dd>
+                    <a href="#">墨尔本</a>
+                    <a href="#">墨尼</a>
+                    <a href="#">黄金海岸</a>
+                    <a href="#">凯恩斯</a>
+                    <a href="#">布里斯班奥克兰</a>
+                    <a href="#">佩吉</a>
+                    <a href="#">波斯</a>
+                    <a href="#">巴拉巴拉</a>
+                    <a href="#">巴拉巴拉</a>
+                    <a href="#">巴拉巴拉</a>
+                    <a href="#">巴拉巴拉</a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</nav>

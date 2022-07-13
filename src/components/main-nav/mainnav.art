@@ -1,0 +1,78 @@
+<div class="second-nav" id="mainnav">
+    <nav class="center-wrap">
+        <ul>
+            <li class="havemenu" id="havemenu" data-n="jjzyx">
+                <a href="#">机酒自由行</a>
+                <em class="arrow">
+                </em>
+            </li>
+            <div id="jjzyx-hide-content" class="hide-content">
+                <ol>
+                    <li><a href="#">1机酒自由行</a></li>
+                    <li><a href="#">2机酒自由行</a></li>
+                    <li><a href="#">3机酒自由行</a></li>
+                </ol>
+            </div>
+            <li>
+                <a href="#">优惠机票</a>
+            </li>
+            <li class="havemenu" id="havemenu" data-n="gty">
+                <a href="#">跟团游</a>
+                <em class="arrow">
+                </em>
+            </li>
+            <div id="gty-hide-content" class="hide-content">
+                <ol>
+                    <li><a href="#">1跟团游</a></li>
+                    <li><a href="#">2跟团游</a></li>
+                    <li><a href="#">3跟团游</a></li>
+                </ol>
+            </div>
+            <li>
+                <a href="#">酒店</a>
+            </li>
+            <li class="havemenu" id="havemenu" data-n="ddwl">
+                <a href="#">当地玩乐</a>
+                <em class="arrow">
+                </em>
+            </li>
+            <div id="ddwl-hide-content" class="hide-content">
+                <ol>
+                    <li><a href="#">1当地玩乐</a></li>
+                    <li><a href="#">2当地玩乐</a></li>
+                    <li><a href="#">3当地玩乐</a></li>
+                </ol>
+            </div>
+            <li>
+                <a href="#">签证</a>
+            </li>
+            <li>
+                <a href="#">游轮</a>
+            </li>
+            <li>
+                <a href="#">河轮</a>
+            </li>
+            <li>
+                <a href="#">保险</a>
+            </li>
+            <li>
+                <a href="#">租车自驾</a>
+            </li>
+            <li class="havemenu" id="havemenu" data-n="sdly">
+                <a href="#">深度旅游</a>
+                <em class="arrow">
+                </em>
+            </li>
+            <div id="sdly-hide-content" class="hide-content">
+                <ol>
+                    <li><a href="#">1深度旅游</a></li>
+                    <li><a href="#">2深度旅游</a></li>
+                    <li><a href="#">3深度旅游</a></li>
+                </ol>
+            </div>
+            <li>
+                <a href="#">私人地址</a>
+            </li>
+        </ul>
+    </nav>
+</div>

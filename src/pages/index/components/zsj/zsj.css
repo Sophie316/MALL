@@ -1,0 +1,44 @@
+main .zsj {
+    height: 738px;
+    padding-top: 40px;
+    background-color: #F7F7F7;
+}
+
+main .zsj .headbox h2, main .gt .headbox h2 {
+    float: left;
+    font-size: 36px;
+    color: #1C1F21;
+    font-weight: bold;
+}
+
+main .zsj .headbox>em, main .gt .headbox>em {
+    font-size: 16px;
+    color: #1C1F21;
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+main .zsj .headbox>ul, main .gt .headbox ul {
+    float: right;
+    position: relative;
+    top: 20px;
+}
+
+main .zsj .headbox>ul li {
+    font-size: 14px;
+    border-bottom: 4px solid #20BD9A;
+    padding-bottom: 4px;
+}
+
+main .zsj .jieshao, main .gt .jieshao {
+    padding-top: 32px;
+}
+
+main .zsj .jieshao>ul>li, main .gt .jieshao>ul>li {
+    float: left;
+}
+
+main .zsj .jieshao ul li.special-box {
+    background-image: linear-gradient(180deg, #BD5EE8 0%, #832ABB 98%);
+}

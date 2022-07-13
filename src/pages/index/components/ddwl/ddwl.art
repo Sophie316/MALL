@@ -1,0 +1,104 @@
+<!-- 头部标题+检索栏 -->
+<div class="headbox">
+    <h2>当地玩乐</h2>
+    <em>像当地人一样，体验本土的吃喝玩乐</em>
+    <ul>
+        <li><a href="#">国内</a></li>
+        <li><a href="#">日本</a></li>
+        <li><a href="#">瑞士</a></li>
+        <li><a href="#">新西兰</a></li>
+        <li><a href="#">澳大利亚</a></li>
+        <li><a href="#">柬埔寨</a></li>
+        <li><a href="#">泰国</a></li>
+    </ul>
+</div>
+
+<!-- 图片索引 -->
+<div class="jieshao">
+    <!-- 第一列 -->
+    <div class="col">
+        <div class="big-images">
+            <a href="#">
+                <div class="picbox">
+                    <img src="images/ddwl1.png" alt="">
+                </div>
+                <div class="info">
+                    <p>[亲自佳选]泰国清迈夜间动物园/Night Safari（可选接送：导游；长颈鹿餐厅）</p>
+                    <div class="bottom-info">
+                        <p class="tag">城市玩乐</p>
+                        <p class="price"><strong>199</strong>元起</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="normal">
+            <a href="#">
+                <div class="picbox">
+                    <img src="images/ddwl2.png" alt="">
+                </div>
+                <div class="info">
+                    [樱花季]北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返...
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- 第二列 -->
+    <div class="col">
+        <div class="normal">
+            <a href="#">
+                <div class="picbox">
+                    <img src="images/ddwl3.png" alt="">
+                </div>
+                <div class="info">
+                    [樱花季]北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返...
+                </div>
+            </a>
+        </div>
+        <div class="normal">
+            <a href="#">
+                <div class="picbox">
+                    <img src="images/ddwl4.png" alt="">
+                </div>
+                <div class="info">
+                    [樱花季]北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返...
+                </div>
+            </a>
+        </div>
+        <div class="normal">
+            <a href="#">
+                <div class="picbox">
+                    <img src="images/ddwl5.png" alt="">
+                </div>
+                <div class="info">
+                    [樱花季]北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返...
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- 第三列 -->
+    <div class="col">
+        <div class="normal">
+            <a href="#">
+                <div class="picbox">
+                    <img src="images/ddwl6.png" alt="">
+                </div>
+                <div class="info">
+                    [樱花季]北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返...
+                </div>
+            </a>
+        </div>
+        <div class="special-box">
+            <a href="#">
+                <p>查看更多</p>
+                <p>机酒自由行产品</p>
+                <div class="iconfont">&#xe61b</div>
+                <ul>
+                    <li>WIFI/电话卡</li>
+                    <li>交通票券</li>
+                    <li>景点门票</li>
+                    <li>特色体验</li>
+                </ul>
+            </a>
+        </div>
+    </div>
+</div>

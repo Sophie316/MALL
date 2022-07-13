@@ -1,0 +1,103 @@
+main .zsj .headbox>ul li:first-child a, 
+main .gt .headbox>ul li:first-child a {
+    color: #20BD9A;
+}
+
+main .zsj .jieshao>ul>li.big-images, 
+main .gt .jieshao>ul>li.big-images {
+    width: 560px;
+    height: 270px;
+    margin: 0 32px 32px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+main .zsj .jieshao>ul>li.big-images .icon, 
+main .gt .jieshao>ul>li.big-images .icon {
+    position: absolute;
+    top: -106px;
+    left: 50%;
+    margin-left: -53px;
+    width: 106px;
+    height: 106px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 18px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transition: transform .5s ease 0s;
+}
+
+main .zsj .jieshao>ul>li.big-images .info, 
+main .gt .jieshao>ul>li.big-images .info {
+    position: absolute;
+    bottom: -22.4px;
+    left: 0;
+    width: 560px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    box-sizing: border-box;
+    transition: transform .5s ease 0s;
+}
+
+main .zsj .jieshao>ul>li.big-images .mask, 
+main .gt .jieshao>ul>li.big-images .mask {
+    position: absolute;
+    width: 560px;
+    height: 270px;
+    top: 0;
+    left: 0;
+    transition: background-color .1s ease 0s;
+}
+
+main .zsj .jieshao>ul>li.big-images:hover .mask, 
+main .gt .jieshao>ul>li.big-images:hover .mask{
+    background-color: rgba(188, 143, 143, .5);
+}
+
+main .zsj .jieshao>ul>li.big-images:hover .icon, 
+main .gt .jieshao>ul>li.big-images:hover .icon {
+    transform: translateY(166px);
+}
+
+main .zsj .jieshao>ul>li.big-images:hover .info, 
+main .gt .jieshao>ul>li.big-images:hover .info {
+    transform: translateY(-55px);
+}
+
+main .zsj .jieshao>ul .normal, 
+main .gt .jieshao>ul .normal {
+    width: 264px;
+    height: 270px;
+    margin: 0 32px 32px 0;
+}
+
+main .zsj .jieshao>ul .normal:nth-child(3), 
+main .gt .jieshao>ul .normal:nth-child(3) {
+    margin-right: 0;
+}
+
+main .zsj .jieshao>ul .normal:hover, 
+main .zsj .jieshao>ul .special-box:hover, 
+main .gt .jieshao>ul .normal:hover, 
+main .gt .jieshao>ul .special-box:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2), -5px 5px 10px rgba(0, 0, 0, .2);
+}
+
+main .zsj .jieshao>ul .normal .picbox, 
+main .gt .jieshao>ul .normal .picbox {
+    width: 264px;
+    height: 184px;
+    overflow: hidden;
+}
+
+main .zsj .jieshao>ul .normal .info, 
+main .gt .jieshao>ul .normal .info {
+    padding: 14px;
+    color: #1C1F21;
+    font-size: 14px;
+    line-height: 26px;
+}

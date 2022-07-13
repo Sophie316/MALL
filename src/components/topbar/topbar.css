@@ -1,0 +1,111 @@
+header .top-nav {
+    width: 100%;
+    min-width: 1152px;
+    height: 32px;
+    background-color: #2A2A2A;
+}
+
+header .top-nav .center-wrap .nav-left {
+    float: left;
+    height: 32px;
+}
+
+header .top-nav .center-wrap .nav-left >ul >li {
+    margin-right: 18px;
+    float: left;
+}
+
+header .top-nav .center-wrap .nav-left >ul >li a {
+    color: white;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+header .top-nav .center-wrap .nav-left >ul .havemenu {
+    padding-right: 12px;
+    position: relative;
+}
+
+header .top-nav .center-wrap .nav-left >ul >li.havemenu em {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 50%;
+    margin-top: -3px;
+    right: 3px;
+    transform: rotate(0);
+    transition: transform .25s linear 0s;
+}
+
+header .top-nav .center-wrap .nav-left >ul >li.havemenu em b {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    transform: rotate(45deg);
+    background-color: white;
+}
+
+header .top-nav .center-wrap .nav-left >ul >li.havemenu em i {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    transform: rotate(45deg);
+    top: 0;
+    margin-top: -1.5px;
+    background-color: #2A2A2A;
+}
+
+header .top-nav .center-wrap .nav-left >ul >li.havemenu:hover em {
+    transform: rotate(180deg);
+}
+
+header .top-nav .center-wrap .nav-left .hide-content {
+    display: none;
+    top: 32px;
+    position: absolute;
+    width: 100px;
+    height: 92px;
+    background-color: white;
+    z-index: 9999;
+}
+
+header .top-nav .center-wrap .nav-left .hide-content:nth-of-type(1) {
+    margin-left: 106px;
+}
+header .top-nav .center-wrap .nav-left .hide-content:nth-of-type(2) {
+    margin-left: 238px;
+}
+header .top-nav .center-wrap .nav-left .hide-content:nth-of-type(3) {
+    margin-left: 296px;
+}
+
+header .top-nav .center-wrap .nav-left .hide-content li {
+    width: 100px;
+    height: 30px;
+    color: #2A2A2A;
+    font-size: 14px;
+    border-bottom: 1px black solid;
+    text-align: center;
+    line-height: 30px;
+}
+
+header .top-nav .center-wrap .nav-left .hide-content li:last-child {
+    border-bottom:none;
+}
+
+header .top-nav .center-wrap .nav-right {
+    float: right;
+    height: 32px;
+}
+
+header .top-nav .center-wrap .nav-right a {
+    color: white;
+    margin-right: 11px;
+    line-height: 32px;
+}
+
+header .top-nav .center-wrap .nav-right span {
+    color: white;
+    margin-right: 11px;
+    line-height: 32px;
+}

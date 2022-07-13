@@ -1,0 +1,61 @@
+footer .part-two {
+    background-color: #1C1F21;
+    height: 225px;
+}
+
+footer .part-two .headbox {
+    padding-top: 48px;
+}
+
+footer .part-two .headbox h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 46px;
+    float: left;
+}
+
+footer .part-two .headbox em {
+    position: relative;
+    top: 14px;
+    font-size: 14px;
+    margin-left: 21px;
+    color: white;
+    width: 532px;
+    height: 40px;
+    float: left;
+}
+
+footer .part-two ul {
+    padding-top: 30px;
+}
+
+footer .part-two ul li {
+    float: left;
+    padding: 0 10px;
+    border-right: 1px solid white;
+}
+
+footer .part-two ul li:first-child {
+    padding-left: 0;
+}
+
+footer .part-two ul li:last-child {
+    padding-right: 0;
+    border-right: none;
+}
+
+footer .part-two ul li a {
+    color: white;
+    font-size: 14px;
+}
+
+footer .part-two .copyrights {
+    padding-top: 20px;
+    color: white;
+    font-size: 14px;
+}
+
+footer .part-two .copyrights a {
+    color: white;
+    font-size: 14px;
+}

@@ -1,0 +1,154 @@
+main .jjzyx {
+    padding-top: 40px;
+    height: 698px;
+}
+
+main .jjzyx .headbox {
+    margin-bottom: 32px;
+}
+
+main .jjzyx .headbox h2{
+    float: left;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1C1F21;
+}
+
+main .jjzyx .headbox em {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: 16px;
+    color: #1C1F21;
+}
+
+main .jjzyx .headbox ul {
+    float: right;
+    height: 44px;
+    position: relative;
+    top: 20px;
+    left: 0;
+}
+
+main .jjzyx .headbox ul li {
+    float: left;
+    margin-right: 16px;
+    font-size: 14px;
+    color: #1C1F21;
+}
+
+main .jjzyx .headbox ul li:nth-child(8) {
+    margin-right: 0;
+}
+
+main .jjzyx .headbox ul li:nth-child(1) {
+    border-bottom: 4px solid #20BD9A;
+    padding-bottom: 4px;
+}
+
+main .jjzyx .headbox ul li:nth-child(1) a {
+    color: #20BD9A;
+}
+
+main .jjzyx .jieshao>ul>li {
+    margin: 0 32px 32px 0;
+    float: left;
+    position: relative;
+}
+
+main .jjzyx .jieshao ul li:nth-child(3), 
+main .jjzyx .jieshao ul li:nth-child(7){
+    margin-right: 0;
+}
+
+main .jjzyx .jieshao>ul>li:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .2), -5px 5px 10px rgba(0, 0, 0, .2);
+}
+
+main .jjzyx .jieshao ul li:nth-child(1) .picbox {
+    width: 560px;
+    height: 270px;
+    overflow: hidden;
+}
+
+main .jjzyx .jieshao ul li:nth-child(1) span {
+    position: absolute;
+    width: 74px;
+    height: 40px;
+    bottom: 0;
+    margin-bottom: 103px;
+    left: 0;
+    background-color: rgba(0,0,0,.55);
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+main .jjzyx .jieshao ul li:nth-child(1) .info {
+    position: absolute;
+    width: 560px;
+    height: 103px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.55);
+    font-size: 16px;
+    color: white;
+    padding: 30px 26px;
+    box-sizing: border-box;
+}
+
+main .jjzyx .jieshao>ul>li:nth-child(2),
+main .jjzyx .jieshao>ul>li:nth-child(3),
+main .jjzyx .jieshao>ul>li:nth-child(4),
+main .jjzyx .jieshao>ul>li:nth-child(5),
+main .jjzyx .jieshao>ul>li:nth-child(6) {
+    width: 264px;
+    height: 270px;
+}
+
+main .jjzyx .jieshao ul li:nth-child(2) .picbox,
+main .jjzyx .jieshao ul li:nth-child(3) .picbox,
+main .jjzyx .jieshao ul li:nth-child(4) .picbox,
+main .jjzyx .jieshao ul li:nth-child(5) .picbox,
+main .jjzyx .jieshao ul li:nth-child(6) .picbox {
+    width: 264px;
+    height: 184px;
+    overflow: hidden;
+}
+
+main .jjzyx .jieshao ul li:nth-child(2) span,
+main .jjzyx .jieshao ul li:nth-child(3) span,
+main .jjzyx .jieshao ul li:nth-child(4) span,
+main .jjzyx .jieshao ul li:nth-child(5) span,
+main .jjzyx .jieshao ul li:nth-child(6) span {
+    position: absolute;
+    width: 74px;
+    height: 40px;
+    bottom: 0;
+    margin-bottom: 86px;
+    left: 0;
+    background-color: rgba(0,0,0,.55);
+    font-size: 16px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+}
+
+main .jjzyx .jieshao ul li:nth-child(2) .wordbox,
+main .jjzyx .jieshao ul li:nth-child(3) .wordbox,
+main .jjzyx .jieshao ul li:nth-child(4) .wordbox,
+main .jjzyx .jieshao ul li:nth-child(5) .wordbox,
+main .jjzyx .jieshao ul li:nth-child(6) .wordbox {
+    padding: 14px;
+    font-size: 14px;
+    color: #1C1F21;
+    line-height: 26px;
+}
+
+main .jjzyx::after {
+    content: '';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}

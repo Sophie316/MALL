@@ -1,0 +1,87 @@
+<div class="headbox">
+    <h2>跟团/半自助游</h2>
+    <em>旅游需要好的选择，踏实省心</em>
+    <ul>
+        <li><a href="#">半自助游</a></li>
+        <li><a href="#">城市CityWalk</a></li>
+    </ul>
+</div>
+<div class="jieshao">
+    <ul>
+        <li class="big-images">
+            <a href="#">
+                <img src="images/gt1.png" alt="">
+                <div class="mask"></div>
+                <div class="icon">
+                    <p>城市</p>
+                    <p>CityWalk</p>
+                </div>
+                <div class="info">
+                    【CityWalk】大阪浪花之城——美食、动漫和大阪人不为人知的辛迷生活
+                </div>
+
+            </a>
+        </li>
+        <li class="normal">
+            <a href="#">
+                <div class="picbox">
+                    <img src="images/gt2.png" alt="">
+                </div>
+                <div class="info">
+                    成都/西安直飞清迈+拜县6-7天半自助游（2-8人纯私家小包团+萌妹...
+                </div>
+            </a>
+        </li>
+        <li class="normal">
+            <a href="#">
+                <div class="picbox">
+                    <img src="images/gt3.png" alt="">
+                </div>
+                <div class="info">
+                    成都/西安直飞清迈+拜县6-7天半自助游（2-8人纯私家小包团+萌妹...
+                </div>
+            </a>
+        </li>
+        <li class="normal">
+            <a href="#">
+                <div class="picbox">
+                    <img src="images/gt4.png" alt="">
+                </div>
+                <div class="info">
+                    成都/西安直飞清迈+拜县6-7天半自助游（2-8人纯私家小包团+萌妹...
+                </div>
+            </a>
+        </li>
+        <li class="normal">
+            <a href="#">
+                <div class="picbox">
+                    <img src="images/gt5.png" alt="">
+                </div>
+                <div class="info">
+                    成都/西安直飞清迈+拜县6-7天半自助游（2-8人纯私家小包团+萌妹...
+                </div>
+            </a>
+        </li>
+        <li class="normal">
+            <a href="#">
+                <div class="picbox">
+                    <img src="images/gt6.png" alt="">
+                </div>
+                <div class="info">
+                    成都/西安直飞清迈+拜县6-7天半自助游（2-8人纯私家小包团+萌妹...
+                </div>
+            </a>
+        </li>
+        <li class="special-box">
+            <a href="#">
+                <p>查看更多</p>
+                <p>精品跟团/半自助游</p>
+                <div class="iconfont">&#xe61b</div>
+                <ul>
+                    <li>跟团游</li>
+                    <li>半自助游</li>
+                </ul>
+            </a>
+        </li>
+    </ul>
+</div>

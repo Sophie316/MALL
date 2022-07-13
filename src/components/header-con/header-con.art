@@ -1,0 +1,6 @@
+<div class="header-con center-wrap">
+    <h1>慕云游商城</h1>
+    <div class="search">
+        <input type="text" placeholder="查询目的地/酒店/机票攻略"><a href='#' class="button iconfont">&#xe62d</a>
+    </div>
+</div>
